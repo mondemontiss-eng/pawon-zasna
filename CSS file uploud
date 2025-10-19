@@ -1,0 +1,62 @@
+/* Mengatur tampilan dasar seluruh halaman */
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f7f3e8; /* Warna krem lembut, tema roti */
+    color: #333; 
+    margin: 0; 
+    padding: 20px; 
+}
+
+/* Mengatur judul toko */
+h1 {
+    color: #a0522d; /* Cokelat tanah */
+    text-align: center; 
+    border-bottom: 3px solid #f0ad4e; /* Garis pemisah oranye */
+    padding-bottom: 10px;
+}
+
+/* Mengatur gambar utama agar responsif dan di tengah */
+.header-img {
+    max-width: 100%; /* Gambar selalu muat di layar HP */
+    height: auto; 
+    display: block; 
+    margin: 15px auto; /* Memindahkan gambar ke tengah */
+    border-radius: 8px; 
+}
+
+/* Menghilangkan tanda bulat pada daftar produk */
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+/* Gaya untuk setiap item produk */
+li {
+    background-color: #ffffff; 
+    margin-bottom: 8px; 
+    padding: 10px 15px;
+    border-radius: 5px; 
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); 
+}
+
+/* Gaya untuk harga yang dicoret (harga lama) */
+del {
+    color: #cc0000; /* Merah untuk harga yang dicoret */
+    margin-right: 5px;
+}
+
+/* Gaya untuk footer dan nomor telepon */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+/* Agar link telepon tidak berwarna biru default */
+footer a {
+    color: #007bff; /* Warna biru profesional */
+    text-decoration: none; /* Menghilangkan garis bawah link */
+    font-size: 1.2em;
+}
+.CSS. 
