@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawon Zasna - Roti & Kue Pilihan Terbaik</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <h1>Pawon Zasna</h1>
+        <p>Roti & Kue Pilihan Terbaik</p>
+        
+        <img src="kue-spesial.jpg" alt="Foto kue andalan Pawon Zasna" class="header-img">
+        
+    </header>
+
+    <main>
+        <h2>Daftar Produk Istimewa</h2>
+        
+        <ul>
+            <li>Cake: 35k</li>
+            <li>Spiku: 35k</li>
+            <li>Bronist: 35k</li>
+            <li>Bolu Gulung: 30k</li>
+            <li>Caramel: 45k</li>
+            <li>Bolu Pandan: 35k</li>
+            <li>Cake Marmer: 40k</li>
+            <li>Bolu Pisang: <del>50k</del> 40k ✨</li>
+            <li>Jenang Gulung: 38k</li>
+        </ul>
+
+        <h2>Aneka Jajanan Ringan</h2>
+
+        <ul>
+            <li>Risol: 2k</li>
+            <li>Lumpia: 2k</li>
+            <li>Cumcum: 2,5k</li>
+            <li>Donat: 3k</li>
+        </ul>
+    </main>
+    
+    <footer>
+        <p>Untuk pemesanan, silakan hubungi:</p>
+        <p><strong><a href="tel:082257567892">082257567892</a></strong></p>
+    </footer>
+</body>
+</html>
+. HTML. 
