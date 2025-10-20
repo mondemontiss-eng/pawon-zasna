@@ -1,4 +1,12 @@
 /* Mengatur tampilan dasar seluruh halaman */
+/* Gaya untuk Logo Toko */
+.logo {
+    max-width: 100px; /* Batasi lebar maksimal logo 100 piksel */
+    height: auto; 
+    display: block; /* Membuat logo menempati baris sendiri */
+    margin: 15px auto 5px auto; /* Menengahkan logo dan memberi jarak */
+}
+
 body {
     font-family: Arial, sans-serif; 
     background-color: #f7f3e8; /* Warna krem lembut, tema roti */
