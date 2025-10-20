@@ -1,50 +1,51 @@
 /* Mengatur tampilan dasar seluruh halaman */
-/* Gaya untuk Logo Toko */
-.logo {
-    max-width: 100px; /* Batasi lebar maksimal logo 100 piksel */
-    height: auto; 
-    display: block; /* Membuat logo menempati baris sendiri */
-    margin: 15px auto 5px auto; /* Menengahkan logo dan memberi jarak */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f3e8; /* Warna krem lembut */
+    color: #333;
+    margin: 0;
+    padding: 20px;
 }
 
-body {
-    font-family: Arial, sans-serif; 
-    background-color: #f7f3e8; /* Warna krem lembut, tema roti */
-    color: #333; 
-    margin: 0; 
-    padding: 20px; 
+/* Gaya untuk Logo Toko */
+.logo {
+    max-width: 100px;
+    height: auto; 
+    display: block; 
+    margin: 15px auto 5px auto; 
 }
 
 /* Mengatur judul toko */
 h1 {
-    color: #a0522d; /* Cokelat tanah */
-    text-align: center; 
-    border-bottom: 3px solid #f0ad4e; /* Garis pemisah oranye */
+    color: #A0522D; /* Cokelat tanah */
+    text-align: center;
+    border-bottom: 3px solid #f0ad4e; /* Garis pemisah */
     padding-bottom: 10px;
 }
 
-/* Mengatur gambar utama agar responsif dan di tengah */
+/* Mengatur gambar utama agar responsif dan diberi sudut */
 .header-img {
-    max-width: 100%; /* Gambar selalu muat di layar HP */
-    height: auto; 
+    max-width: 100%; 
+    height: auto;
     display: block; 
-    margin: 15px auto; /* Memindahkan gambar ke tengah */
-    border-radius: 8px; 
+    margin: 15px auto; 
+    border-radius: 8px;
 }
 
 /* Menghilangkan tanda bulat pada daftar produk */
 ul {
-    list-style-type: none; 
-    padding: 0; 
+    list-style-type: none;
+    padding: 0;
 }
 
 /* Gaya untuk setiap item produk */
 li {
     background-color: #ffffff; 
-    margin-bottom: 8px; 
+    margin-bottom: 15px; /* Jarak antar produk */
     padding: 10px 15px;
-    border-radius: 5px; 
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* PENTING: Fix agar gambar float tidak merusak tata letak */
 }
 
 /* Gaya untuk harga yang dicoret (harga lama) */
@@ -57,14 +58,36 @@ del {
 footer {
     text-align: center;
     margin-top: 30px;
-    padding-top: 20px;
+    padding: 20px;
     border-top: 1px solid #ddd;
 }
 
-/* Agar link telepon tidak berwarna biru default */
+/* Agar link telepon tidak berwarna biru */
 footer a {
-    color: #007bff; /* Warna biru profesional */
-    text-decoration: none; /* Menghilangkan garis bawah link */
+    color: #A0522D; 
+    text-decoration: none;
     font-size: 1.2em;
 }
 
+/* Gaya untuk Foto Produk di Daftar */
+.product-item-img {
+    width: 60px;          /* Lebar foto kecil */
+    height: auto;
+    float: left;         /* Membuat foto berada di samping teks */
+    margin-right: 15px;  /* Jarak di sebelah kanan foto */
+    border-radius: 5px;
+}
+
+/* Gaya untuk Tombol Pesan WhatsApp */
+.order-link {
+    background-color: #25D366; 
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none; 
+    border-radius: 5px;
+    display: block; /* Tombol menempati baris penuh */
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 10px;
+    clear: both; /* Memastikan tombol muncul di bawah gambar */
+}
